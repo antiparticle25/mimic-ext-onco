@@ -30,7 +30,7 @@ The dataset is structured using 3 broad types of tables:
 
 Visual representation of the schema:
 
-![Oncology-Focused MIMIC-IV Schema](oncology_mimic_schema.png)
+![Oncology-Focused MIMIC-IV Schema](files/oncology_mimic_schema.png)
 
 
 ---
