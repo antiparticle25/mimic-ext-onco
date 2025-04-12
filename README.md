@@ -4,13 +4,13 @@
 
 This project comprises a **curated, oncology-focused relational dataset** from the [MIMIC-IV clinical database](https://mimic.physionet.org/). It isolates and structures information relevant to **cancer patients** to support downstream analysis, visualization, or machine learning workflows.
 
-- Extracted key tables from MIMIC-IV (patients, admissions, diagnoses, ICU stays, prescriptions, labs) in a local **PostgreSQL** setup.
+- Extracted key tables from MIMIC-IV (patients, admissions, diagnoses, ICU stays, prescriptions, labs) in a local **PostgreSQL** setup
 - Filtered all data to focus on oncology-relevant fields:
-  - **Diagnoses** with cancer-related ICD-10 codes.
-  - **Lab values** (blood counts, liver enzymes, tumor markers).
-  - **Medications** relevant to chemotherapy or immunotherapy.
-- Defined a **derived oncology cohort** for fast patient filtering.
-- Created materialized views and structured schema for efficient queries.
+  - **Diagnoses** with cancer-related ICD-10 codes
+  - **Lab values** (blood counts, liver enzymes, tumor markers)
+  - **Medications** relevant to chemotherapy or immunotherapy
+- Defined a **derived oncology cohort** for fast patient filtering
+- Optimized for efficient queries materialized views and structured schema
 
 ---
 
