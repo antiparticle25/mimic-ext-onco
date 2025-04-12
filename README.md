@@ -1,6 +1,6 @@
 # Oncology Subset of MIMIC-IV
 
-## Overview
+## Overview & Workflow
 
 This project comprises a **curated, oncology-focused relational dataset** from the [MIMIC-IV clinical database](https://mimic.physionet.org/). It isolates and structures information relevant to **cancer patients** to support downstream analysis, visualization, or machine learning workflows.
 
