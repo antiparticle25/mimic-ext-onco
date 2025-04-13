@@ -1,5 +1,4 @@
-# Bridging Clinical and Genomic Data  
-## An Oncology-Focused Subset of MIMIC-IV Aligned with TCGA
+# Bridging Clinical and Genomic Data  An Oncology-Focused Subset of MIMIC-IV Aligned with TCGA
 
 ## Overview & Workflow
 
