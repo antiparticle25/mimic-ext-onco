@@ -5,14 +5,14 @@
 This project comprises a **curated, oncology-focused relational dataset** from the [MIMIC-IV clinical database](https://mimic.physionet.org/), one of the largest publicly available medical datasets that encompass detailed patient-level information at the Beth Israel Deaconess Medical Center. It isolates and structures information relevant to **cancer patients** to support downstream analysis, visualization, or machine learning workflows, and serves as a foundation for bridging clinical data (MIMIC-IV) with molecular profiles (e.g., TCGA).
 
 - Extracted key tables from MIMIC-IV (patients, admissions, diagnoses, ICU stays, prescriptions, labs) in a local **PostgreSQL** setup
-- 
+  
 - Filtered all data to focus on oncology-relevant fields:
   - **Diagnoses** with cancer-related ICD codes (ICD-9/10 neoplasm chapters)
   - **Lab values** (blood counts, liver enzymes, tumor markers)
   - **Medications** relevant to chemotherapy or immunotherapy
   - 
 - Defined a **derived oncology cohort** for fast patient filtering based on ICD logic
-- 
+  
 - Built supporting views for treatment timelines and labeled lab tests
   
 - Optimized for efficient querying via indexes and materialized views
