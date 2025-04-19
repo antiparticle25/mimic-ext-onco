@@ -1,4 +1,4 @@
-Bridging Clinical and Genomic Data in Cancer Patients
+# Bridging Clinical and Genomic Data in Cancer Patients
 
 ## Overview & Workflow
 
