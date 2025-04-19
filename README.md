@@ -1,4 +1,4 @@
-# MIMIC-IV-Ext-OncoTCGA: Bridging Clinical and Genomic Data in Cancer Patients
+# MIMIC-ext-Onco: Bridging Clinical and Genomic Data in Cancer Patients
 
 ## Overview & Workflow
 
